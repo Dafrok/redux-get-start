@@ -33,11 +33,11 @@ module.exports = {
   postcss: [autoprefixer],
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'MIS通用专题',
+      title: 'Rudux Get Start',
       filename: '../../dist/template/index.html'
     }),
     new webpack.DefinePlugin({
-        'process.env.NODE_ENV': '"development"'
+      'process.env.NODE_ENV': '"development"'
     })
   ]
 }
